@@ -200,7 +200,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "qmtech-adc.kicad_pro",
+    "filename": "qmtech-ad9235.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -234,7 +234,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "qmtech-adc.net",
+      "netlist": "qmtech-ad9235.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
