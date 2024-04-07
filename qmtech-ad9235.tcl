@@ -72,8 +72,8 @@ part CN1 1x2 1x2
 part CN2 SMA C914554
 part CN3 1x17 1x17
 
-part M1 M25 hole
-part M2 M25 hole
+part M1 M3 hole
+part M2 M3 hole
 
 puts "  )"
 puts "  (nets"

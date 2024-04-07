@@ -47,8 +47,8 @@
     (comp (ref CN1) (footprint footprints:1x2) (property (name mpn) (value 1x2)))
     (comp (ref CN2) (footprint footprints:SMA) (property (name mpn) (value C914554)))
     (comp (ref CN3) (footprint footprints:1x17) (property (name mpn) (value 1x17)))
-    (comp (ref M1) (footprint footprints:M25) (property (name mpn) (value hole)))
-    (comp (ref M2) (footprint footprints:M25) (property (name mpn) (value hole)))
+    (comp (ref M1) (footprint footprints:M3) (property (name mpn) (value hole)))
+    (comp (ref M2) (footprint footprints:M3) (property (name mpn) (value hole)))
   )
   (nets
     (net (code 1) (name 5V)

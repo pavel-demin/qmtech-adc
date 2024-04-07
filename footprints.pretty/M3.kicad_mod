@@ -1,0 +1,4 @@
+(footprint M3 (layer F.Cu)
+  (attr through_hole)
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+)
