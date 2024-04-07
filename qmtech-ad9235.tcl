@@ -70,7 +70,7 @@ part IC3 TSSOP8 C2859546
 
 part CN1 1x2 1x2
 part CN2 SMA C914554
-part CN3 1x17 1x17
+part CN3 2x25 2x25
 
 part M1 M3 hole
 part M2 M3 hole
