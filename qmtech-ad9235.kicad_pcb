@@ -1266,7 +1266,7 @@
       (net 27 "W6") (tstamp 56a2f121-f840-4ad0-8ffe-b0acd11f489d))
   )
 
-  (footprint "footprints:7050" (layer "F.Cu")
+  (footprint "footprints:SMD7050-4P" (layer "F.Cu")
     (tstamp d71bf271-a30f-445c-9011-edb7e67c651d)
     (at 147.5 95.8)
     (property "mpn" "C254233")
