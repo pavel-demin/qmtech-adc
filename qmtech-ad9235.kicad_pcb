@@ -198,7 +198,7 @@
 
   (footprint "footprints:M3" (layer "F.Cu")
     (tstamp 031b5105-705d-43e2-a11d-21e1ea0ff4bb)
-    (at 124 59)
+    (at 125 60)
     (property "mpn" "hole")
     (clearance 1)
     (attr through_hole)
@@ -497,7 +497,7 @@
 
   (footprint "footprints:M3" (layer "F.Cu")
     (tstamp 420921d1-19fb-4ce7-99fe-77583d515240)
-    (at 124 126)
+    (at 125 125)
     (property "mpn" "hole")
     (clearance 1)
     (attr through_hole)
