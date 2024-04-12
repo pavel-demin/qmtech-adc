@@ -36,7 +36,7 @@
     (comp (ref C25) (footprint footprints:1206) (property (name mpn) (value C13585)))
     (comp (ref C26) (footprint footprints:1206) (property (name mpn) (value C13585)))
     (comp (ref T1) (footprint footprints:AT224) (property (name mpn) (value C879856)))
-    (comp (ref Y1) (footprint footprints:SMD3225-6P) (property (name mpn) (value C5179991)))
+    (comp (ref Y1) (footprint footprints:SMD7050-6P) (property (name mpn) (value C5247989)))
     (comp (ref IC1) (footprint footprints:LFCSP48) (property (name mpn) (value C653392)))
     (comp (ref IC2) (footprint footprints:SOT23) (property (name mpn) (value C2862740)))
     (comp (ref IC3) (footprint footprints:SOT23) (property (name mpn) (value C963430)))
