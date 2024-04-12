@@ -30,6 +30,10 @@ part R19 0603 C21190
 
 part R20 0603 C23185
 
+part R21 0603 C8218
+part R22 0603 C8218
+part R23 0603 C8218
+
 part C1 0603 C14663
 
 part C2 0603 C1648
@@ -133,9 +137,9 @@ wire 5V C22/1 IC5/1
 wire DVDD C23/1 IC5/5
 wire GND C22/2 C23/2 IC5/2
 
-wire AEN IC3/3 CN2/39
-wire CEN IC4/3 CN2/37
-wire DEN IC5/3 CN2/35
+wire AEN IC3/3 R21/1
+wire CEN IC4/3 R22/1
+wire DEN IC5/3 R23/1
 
 wire 5V CN2/49 CN2/50
 wire GND CN2/1 CN2/2 CN2/47 CN2/48
@@ -171,6 +175,10 @@ wire W12 R12/2 CN2/11
 wire W13 R13/2 CN2/9
 wire W14 R14/2 CN2/7
 wire W15 R15/2 CN2/5
+
+wire W16 R21/2 CN2/39
+wire W17 R22/2 CN2/37
+wire W18 R23/2 CN2/35
 
 puts "  )"
 puts ")"
