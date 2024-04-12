@@ -18,20 +18,20 @@ proc wire {name args} {
 puts "(export (version E)"
 puts "  (components"
 
-for {set i 1} {$i <= 15} {incr i} {
+part R1 0603 C22962
+part R2 0603 C22962
+part R3 0603 C22962
+
+for {set i 3} {$i <= 18} {incr i} {
   part R$i 0603 C23345
 }
 
-part R16 0603 C23345
-part R17 0603 C23345
+part R19 0603 C23345
+part R20 0603 C23345
 
-part R18 0603 C21190
-part R19 0603 C21190
+part R21 0603 C21190
+part R22 0603 C21190
 
-part R20 0603 C22962
-
-part R21 0603 C22962
-part R22 0603 C22962
 part R23 0603 C22962
 
 part C1 0603 C14663
@@ -97,15 +97,15 @@ wire GND C8/2 C9/2 C10/2 IC1/0 IC1/4 IC1/22 IC1/23 IC1/28 IC1/31
 wire INPUT CN1/1 T1/6
 wire GND CN1/2 T1/4
 
-wire VIN+ R16/2 R20/1 IC1/29
-wire VIN- R17/2 R20/2 IC1/30
+wire VIN+ R19/2 R23/1 IC1/29
+wire VIN- R20/2 R23/2 IC1/30
 
-wire SEC+ T1/1 R16/1
-wire SEC- T1/3 R17/1
+wire SEC+ T1/1 R19/1
+wire SEC- T1/3 R20/1
 
-wire VCM T1/2 C1/1 R18/2 R19/1
-wire AVDD R18/1
-wire GND C1/2 R19/2
+wire VCM T1/2 C1/1 R21/2 R22/1
+wire AVDD R21/1
+wire GND C1/2 R22/2
 
 wire REFT C2/1 C4/1 C5/1 IC1/26
 wire REFB C3/1 C4/2 C5/2 IC1/25
@@ -135,48 +135,49 @@ wire 5V C21/1 IC5/1
 wire DVDD C22/1 IC5/5
 wire GND C21/2 C22/2 IC5/2
 
-wire AEN IC3/3 R21/1
-wire CEN IC4/3 R22/1
-wire DEN IC5/3 R23/1
-
 wire 5V CN2/49 CN2/50
 wire GND CN2/1 CN2/2 CN2/47 CN2/48
 
-wire Y1 IC2/3 R1/1
-wire D0 IC1/5 R2/1
-wire D1 IC1/6 R3/1
-wire D2 IC1/7 R4/1
-wire D3 IC1/8 R5/1
-wire D4 IC1/9 R6/1
-wire D5 IC1/10 R7/1
-wire D6 IC1/11 R8/1
-wire D7 IC1/12 R9/1
-wire D8 IC1/13 R10/1
-wire D9 IC1/14 R11/1
-wire D10 IC1/17 R12/1
-wire D11 IC1/18 R13/1
-wire D12 IC1/19 R14/1
-wire D13 IC1/20 R15/1
+wire AEN IC3/3 R1/1
+wire CEN IC4/3 R2/1
+wire DEN IC5/3 R3/1
 
-wire W1 R1/2 CN2/33
-wire W2 R2/2 CN2/31
-wire W3 R3/2 CN2/29
-wire W4 R4/2 CN2/27
-wire W5 R5/2 CN2/25
-wire W6 R6/2 CN2/23
-wire W7 R7/2 CN2/21
-wire W8 R8/2 CN2/19
-wire W9 R9/2 CN2/17
-wire W10 R10/2 CN2/15
-wire W11 R11/2 CN2/13
-wire W12 R12/2 CN2/11
-wire W13 R13/2 CN2/9
-wire W14 R14/2 CN2/7
-wire W15 R15/2 CN2/5
+wire Y1 IC2/3 R4/1
+wire D0 IC1/5 R5/1
+wire D1 IC1/6 R6/1
+wire D2 IC1/7 R7/1
+wire D3 IC1/8 R8/1
+wire D4 IC1/9 R9/1
+wire D5 IC1/10 R10/1
+wire D6 IC1/11 R11/1
+wire D7 IC1/12 R12/1
+wire D8 IC1/13 R13/1
+wire D9 IC1/14 R14/1
+wire D10 IC1/17 R15/1
+wire D11 IC1/18 R16/1
+wire D12 IC1/19 R17/1
+wire D13 IC1/20 R18/1
 
-wire W16 R21/2 CN2/39
-wire W17 R22/2 CN2/37
-wire W18 R23/2 CN2/35
+wire W1 R1/2 CN2/39
+wire W2 R2/2 CN2/37
+wire W3 R3/2 CN2/35
+
+wire W4 R4/2 CN2/33
+wire W5 R5/2 CN2/31
+wire W6 R6/2 CN2/29
+wire W7 R7/2 CN2/27
+wire W8 R8/2 CN2/25
+wire W9 R9/2 CN2/23
+wire W10 R10/2 CN2/21
+wire W11 R11/2 CN2/19
+wire W12 R12/2 CN2/17
+wire W13 R13/2 CN2/15
+wire W14 R14/2 CN2/13
+wire W15 R15/2 CN2/11
+wire W16 R16/2 CN2/9
+wire W17 R17/2 CN2/7
+wire W18 R18/2 CN2/5
+
 
 puts "  )"
 puts ")"
