@@ -1,6 +1,6 @@
 (export (version E)
   (components
-    (comp (ref R1) (footprint footprints:0603) (property (name mpn) (value C23345)))
+    (comp (ref R1) (footprint footprints:0603) (property (name mpn) (value C23185)))
     (comp (ref R2) (footprint footprints:0603) (property (name mpn) (value C22962)))
     (comp (ref R3) (footprint footprints:0603) (property (name mpn) (value C23345)))
     (comp (ref R4) (footprint footprints:0603) (property (name mpn) (value C23345)))

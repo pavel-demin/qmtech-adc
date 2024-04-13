@@ -18,7 +18,7 @@ proc wire {name args} {
 puts "(export (version E)"
 puts "  (components"
 
-part R1 0603 C23345
+part R1 0603 C23185
 
 part R2 0603 C22962
 
