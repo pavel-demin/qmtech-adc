@@ -47,7 +47,7 @@
     (comp (ref IC5) (footprint footprints:SOT23) (property (name mpn) (value C963430)))
     (comp (ref IC6) (footprint footprints:SOT23) (property (name mpn) (value C2862740)))
     (comp (ref IC7) (footprint footprints:SOT23) (property (name mpn) (value C2869949)))
-    (comp (ref CN1) (footprint footprints:SMA) (property (name mpn) (value C914554)))
+    (comp (ref CN1) (footprint footprints:SMA-EDGE) (property (name mpn) (value C496550)))
     (comp (ref CN2) (footprint footprints:2x25) (property (name mpn) (value 2x25)))
     (comp (ref CN3) (footprint footprints:1x2) (property (name mpn) (value 1x2)))
     (comp (ref M1) (footprint footprints:M3) (property (name mpn) (value hole)))
