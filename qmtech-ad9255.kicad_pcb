@@ -2358,7 +2358,7 @@
     (priority 1)
     (connect_pads no (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 174.5 129.5)
@@ -2382,7 +2382,7 @@
     (priority 11)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.4))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.4))
     (polygon
       (pts
         (xy 145.3 95.8)
@@ -2395,7 +2395,7 @@
   (zone (net 3) (net_name "GND") (layer "In1.Cu") (tstamp 71dc064f-9177-46cf-9b98-56e5c4e339a1) (hatch edge 0.5)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 130.5 50.5)
@@ -2409,7 +2409,7 @@
     (priority 4)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 149.4 117.4)
@@ -2423,7 +2423,7 @@
     (priority 12)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 130.5 74.5)
@@ -2439,7 +2439,7 @@
     (priority 5)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 174.5 106.9)
@@ -2457,7 +2457,7 @@
     (priority 7)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 142.6 117.6)
@@ -2473,7 +2473,7 @@
     (priority 10)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 142.6 78.9)
@@ -2487,7 +2487,7 @@
     (priority 6)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 148.4 94.4)
@@ -2505,7 +2505,7 @@
     (priority 9)
     (connect_pads thru_hole_only (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 143.4 74.3)
@@ -2519,7 +2519,7 @@
     (priority 11)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.4))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.4))
     (polygon
       (pts
         (xy 145.3 95.8)
@@ -2533,7 +2533,7 @@
     (priority 8)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 130.5 50.5)
@@ -2547,7 +2547,7 @@
     (priority 3)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 130.5 129.5)
@@ -2565,7 +2565,7 @@
     (priority 2)
     (connect_pads no (clearance 0.2))
     (min_thickness 0.2) (filled_areas_thickness no)
-    (fill (thermal_gap 0.2) (thermal_bridge_width 0.6))
+    (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
         (xy 130.5 50.5)
