@@ -20,7 +20,7 @@ puts "  (components"
 
 part R1 0603 C23185
 
-part R2 0603 C22962
+part R2 0603 C23025
 
 part R3 0603 C22859
 part R4 0603 C22859
