@@ -100,7 +100,7 @@ part M2 M3 hole
 puts "  )"
 puts "  (nets"
 
-wire INPUT CN1/1 T1/6
+wire INPUT CN1/1 T1/4
 
 wire SEC+ T1/1 R3/1
 wire VCM1 IC1/46 C1/1 R1/1
@@ -110,7 +110,7 @@ wire SEC- T1/3 R4/1
 wire VIN+ R3/2 R2/1 IC1/42
 wire VIN- R4/2 R2/2 IC1/43
 
-wire GND CN1/2 T1/4 C1/2 C2/2
+wire GND CN1/2 T1/6 C1/2 C2/2
 
 wire VREF C3/1 C4/1 IC1/38
 wire GND C3/2 C4/2
