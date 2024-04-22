@@ -20,10 +20,10 @@ puts "  (components"
 
 part R1 0603 C22775
 
-part R2 0603 C23025
+part R2 0603 C8218
 
-part R3 0603 C22859
-part R4 0603 C22859
+part R3 0603 C23140
+part R4 0603 C23140
 
 part R5 0603 C22859
 
@@ -99,13 +99,13 @@ puts "  (nets"
 
 wire INPUT CN1/1 T1/4
 
-wire SEC+ T1/1 R3/1
+wire SEC+ T1/1 R2/1 R3/1
 wire VCM1 IC1/46 C1/1 R1/1
 wire VCM2 R1/2 C2/1 T1/2
-wire SEC- T1/3 R4/1
+wire SEC- T1/3 R2/2 R4/1
 
-wire VIN+ R3/2 R2/1 IC1/42
-wire VIN- R4/2 R2/2 IC1/43
+wire VIN+ R3/2 IC1/42
+wire VIN- R4/2 IC1/43
 
 wire GND CN1/2 T1/6 C1/2 C2/2
 
