@@ -802,7 +802,7 @@
   (footprint "footprints:0603" (layer "F.Cu")
     (tstamp 880072fe-6247-4236-b781-40525a67d6dc)
     (at 154.5 94.1)
-    (property "mpn" "C22859")
+    (property "mpn" "C25804")
     (attr smd)
     (fp_text reference "R5" (at 0 -4.6) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
