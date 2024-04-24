@@ -18,20 +18,27 @@ proc wire {name args} {
 puts "(export (version E)"
 puts "  (components"
 
-part R1 0603 C22775
+# 10 Ohm
+part R1 0603 C22859
 
-part R2 0603 C8218
+# 120 Ohm
+part R2 0603 C22787
+part R3 0603 C22787
 
-part R3 0603 C23140
-part R4 0603 C23140
+# 10 Ohm
+part R4 0603 C22859
+part R5 0603 C22859
 
-part R5 0603 C25804
+# 10 kOhm
+part R6 0603 C25804
 
-part R6 0603 C22775
-
+# 100 Ohm
 part R7 0603 C22775
 
-part C1 0603 C15849
+# 100 Ohm
+part R8 0603 C22775
+
+part C1 0603 C14663
 part C2 0603 C14663
 
 part C3 0603 C14663
@@ -96,21 +103,21 @@ puts "  (nets"
 
 wire INPUT CN1/1 T1/4
 
-wire SEC+ T1/1 R2/1 R3/1
+wire SEC+ T1/1 R2/1 R4/1
 wire VCM1 IC1/46 C1/1 R1/1
-wire VCM2 R1/2 C2/1 T1/2
-wire SEC- T1/3 R2/2 R4/1
+wire VCM2 R1/2 R2/2 R3/2 C2/1 T1/2
+wire SEC- T1/3 R3/1 R5/1
 
-wire VIN+ R3/2 IC1/42
-wire VIN- R4/2 IC1/43
+wire VIN+ R4/2 IC1/42
+wire VIN- R5/2 IC1/43
 
 wire GND CN1/2 T1/6 C1/2 C2/2
 
 wire VREF C3/1 C4/1 IC1/38
 wire GND C3/2 C4/2
 
-wire RBIAS IC1/47 R5/1
-wire GND R5/2
+wire RBIAS IC1/47 R6/1
+wire GND R6/2
 
 wire AVDD C5/1 C6/1 C7/1 C8/1 C9/1
 wire GND C5/2 C6/2 C7/2 C8/2 C9/2
@@ -126,8 +133,8 @@ wire DVDD IC1/13 IC1/20 IC1/29
 wire SVDD IC1/33
 wire GND IC1/0 IC1/1 IC1/6 IC1/35 IC1/37 IC1/41 IC1/48
 
-wire CLK- C15/1 R6/1 Y1/4
-wire CLK+ C16/1 R6/2 Y1/5
+wire CLK- C15/1 R7/1 Y1/4
+wire CLK+ C16/1 R7/2 Y1/5
 
 wire CLKN C15/2 IC1/3
 wire CLKP C16/2 IC1/2
@@ -164,9 +171,9 @@ wire GND C25/2 C26/2 IC6/2 IC6/4
 wire VCCO33 CN3/2
 wire GND CN3/1
 
-wire IN1 CN2/45 R7/1
+wire IN1 CN2/45 R8/1
 
-wire AEN IC2/3 IC3/3 IC4/3 R7/2
+wire AEN IC2/3 IC3/3 IC4/3 R8/2
 
 wire CSB IC1/32 CN2/46
 wire SCLK IC1/31 CN2/43
