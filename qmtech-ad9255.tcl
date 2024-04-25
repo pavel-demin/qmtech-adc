@@ -38,8 +38,8 @@ part R7 0603 C22775
 # 100 Ohm
 part R8 0603 C22775
 
-# 0.1 Ohm
-part R9 1206 C25334
+# 1 Ohm
+part R9 1206 C17928
 
 part C1 0603 C14663
 part C2 0603 C14663
