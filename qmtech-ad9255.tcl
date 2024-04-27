@@ -41,6 +41,11 @@ part R8 0603 C22775
 # 1 Ohm
 part R9 1206 C17928
 
+# 1 kOhm
+part R10 0603 C21190
+part R11 0603 C21190
+part R12 0603 C21190
+
 part C1 0603 C14663
 part C2 0603 C14663
 
@@ -186,6 +191,11 @@ wire GND CN3/1
 wire VIN C30/1 R9/1
 wire 5V C31/1 R9/2
 wire GND C30/2 C31/2
+
+wire VCCO33 R10/1
+wire VCCO25 R11/1
+wire 5V R12/1
+wire GND R10/2 R11/2 R12/2
 
 wire IN1 CN2/45 R8/1
 
