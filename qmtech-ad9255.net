@@ -7,7 +7,7 @@
     (comp (ref R5) (footprint footprints:0603) (property (name mpn) (value C22859)))
     (comp (ref R6) (footprint footprints:0603) (property (name mpn) (value C25804)))
     (comp (ref R7) (footprint footprints:0603) (property (name mpn) (value C22775)))
-    (comp (ref R8) (footprint footprints:0603) (property (name mpn) (value C22775)))
+    (comp (ref R8) (footprint footprints:0603) (property (name mpn) (value C21190)))
     (comp (ref R9) (footprint footprints:1206) (property (name mpn) (value C17928)))
     (comp (ref R10) (footprint footprints:0603) (property (name mpn) (value C21190)))
     (comp (ref R11) (footprint footprints:0603) (property (name mpn) (value C21190)))

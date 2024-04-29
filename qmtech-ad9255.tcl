@@ -35,8 +35,8 @@ part R6 0603 C25804
 # 100 Ohm
 part R7 0603 C22775
 
-# 100 Ohm
-part R8 0603 C22775
+# 1 kOhm
+part R8 0603 C21190
 
 # 1 Ohm
 part R9 1206 C17928
