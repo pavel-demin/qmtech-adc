@@ -237,7 +237,7 @@
     (at 163.3 120)
     (property "mpn" "C25804")
     (attr smd)
-    (fp_text reference "R12" (at 0 1.8) (layer "F.SilkS") hide
+    (fp_text reference "R11" (at 0 1.8) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
       (tstamp 4caf7ba8-6a9c-41e3-9290-28fa396b9bb5)
     )
@@ -566,7 +566,7 @@
     (at 141.2 60 90)
     (property "mpn" "C21190")
     (attr smd)
-    (fp_text reference "R11" (at 0 1.8 90) (layer "F.SilkS") hide
+    (fp_text reference "R10" (at 0 1.8 90) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
       (tstamp 83c43f0a-27d8-41ad-84ac-f2ef5f6a586c)
     )
@@ -627,9 +627,9 @@
   (footprint "footprints:1206" (layer "F.Cu")
     (tstamp 4a181a75-a807-424d-97e6-6a2daa23dbad)
     (at 137.5 125)
-    (property "mpn" "C17928")
+    (property "mpn" "C560056")
     (attr smd)
-    (fp_text reference "R9" (at -4.1 0) (layer "F.SilkS") hide
+    (fp_text reference "FB1" (at -4.1 0) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
       (tstamp 40895cec-e384-4351-89ab-6aaf30c20bb3)
     )
@@ -683,7 +683,7 @@
     (at 141.2 55 -90)
     (property "mpn" "C21190")
     (attr smd)
-    (fp_text reference "R10" (at 0 -1.8 90) (layer "F.SilkS") hide
+    (fp_text reference "R9" (at 0 -1.8 90) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
       (tstamp ca457559-3183-44c2-8cf1-2ed8d6764d48)
     )
