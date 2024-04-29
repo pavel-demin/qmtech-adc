@@ -1411,7 +1411,7 @@
   (footprint "footprints:SMD7050-6P" (layer "F.Cu")
     (tstamp d71bf271-a30f-445c-9011-edb7e67c651d)
     (at 153.47 83.8 180)
-    (property "mpn" "C5247989")
+    (property "mpn" "C5179988")
     (attr smd)
     (fp_text reference "Y1" (at 0 4.5 180) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
