@@ -18,8 +18,8 @@ proc wire {name args} {
 puts "(export (version E)"
 puts "  (components"
 
-# 10 Ohm
-part R1 0603 C22859
+# 51 Ohm
+part R1 0603 C23197
 
 # 120 Ohm
 part R2 0603 C22787
