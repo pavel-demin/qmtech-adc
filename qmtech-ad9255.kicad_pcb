@@ -151,7 +151,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp 01600533-369c-476f-aba1-6aeb6243a979)
     (at 150 113.6)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C23" (at 0 9.4) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -260,7 +260,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp 15ee090f-ee00-450c-8e45-333baa256a19)
     (at 157.5 106.1)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C26" (at 0 17) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -283,7 +283,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp 19124be3-4edb-4b6c-a6ce-de56c8204c9b)
     (at 136.3 120 90)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C29" (at 0 -2.1 90) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -460,7 +460,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp 2c029f82-cf02-48a1-85a6-9e4b608721ba)
     (at 138.7 120 90)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C30" (at 0 2.1 90) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -543,7 +543,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp 3e61b6ec-bdec-4ccc-b188-eb6b15ef1dfa)
     (at 145 113.6)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C21" (at 0 9.4) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -775,7 +775,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp 585bcc13-c165-4e96-83e3-7d47c2333d12)
     (at 145 120.4)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C20" (at 0 5.6) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -798,7 +798,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp 59db6f4c-7eea-4efa-ad67-ecb5b0c8d608)
     (at 137.5 61.4 180)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C28" (at 0 -5.5 180) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -1021,7 +1021,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp 96bb5cfe-7849-4ba1-99a6-54d91faca989)
     (at 137.5 54.6 180)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C27" (at 0 -9.5 180) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -1044,7 +1044,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp 98804877-76af-46f9-904d-d93e7e37697f)
     (at 170 106.1)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C19" (at 0 9.5) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -1067,7 +1067,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp 98bdc09e-4a80-4c76-8a99-bd4874131dc4)
     (at 150 120.4)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C22" (at 0 5.6) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -1159,7 +1159,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp ac0b1475-e032-4e65-9c3b-80c5da291fec)
     (at 170 112.9)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C18" (at 0 5.5) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -1205,7 +1205,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp bc49683d-fede-4fac-aa84-1eb95fe5ebf3)
     (at 157.5 120.4)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C24" (at 0 8.6) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -1405,7 +1405,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp d2bb9932-251f-431c-ab32-8993e0f2348a)
     (at 157.5 113.6)
-    (property "mpn" "C440198")
+    (property "mpn" "C15850")
     (attr smd)
     (fp_text reference "C25" (at 0 12.5) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
