@@ -2933,7 +2933,7 @@
   (zone (net 3) (net_name "GND") (layer "F.Cu") (tstamp 15cb3089-eabd-4e3c-a6e1-720abd894e81) (hatch edge 0.5)
     (priority 1)
     (connect_pads no (clearance 0.2))
-    (min_thickness 0.2) (filled_areas_thickness no)
+    (min_thickness 0.25) (filled_areas_thickness no)
     (fill (thermal_gap 0.3) (thermal_bridge_width 0.6))
     (polygon
       (pts
