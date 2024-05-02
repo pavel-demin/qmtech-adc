@@ -2276,6 +2276,7 @@
   (via (at 147.5 112.5) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (free) (zone_layer_connections "In1.Cu") (net 3) (tstamp f0e3bca6-3cc6-4353-b938-e5ecd7bf4cda))
   (via (at 147.5 72.5) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (free) (zone_layer_connections "In1.Cu" "In2.Cu") (net 3) (tstamp f10d8969-fbb8-4837-9a17-b546decd8d1c))
   (via (at 172.5 107.5) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (free) (zone_layer_connections "In1.Cu") (net 3) (tstamp f2aa53d9-561b-4d15-add3-dbc6d0bd1f33))
+  (via (at 170 117.5) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (free) (zone_layer_connections "In1.Cu") (net 3) (tstamp f3809e74-d4b7-4a33-a398-7f13d5ae519f))
   (via (at 170 115) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (free) (zone_layer_connections "In1.Cu") (net 3) (tstamp f3a39fb8-6f47-465b-b66f-a137250d8a88))
   (via (at 156.1 99.6) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (free) (zone_layer_connections "In1.Cu") (net 3) (tstamp f3caab36-19bb-4ff6-80ab-8b2bd4c99785))
   (via (at 172.5 127.5) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (free) (zone_layer_connections "In1.Cu") (net 3) (tstamp f618e8ec-4d8f-4126-ae03-966d3424f5e5))
