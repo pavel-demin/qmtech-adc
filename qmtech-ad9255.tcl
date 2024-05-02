@@ -21,9 +21,9 @@ puts "  (components"
 # 51 Ohm
 part R1 0603 C23197
 
-# 120 Ohm
-part R2 0603 C22787
-part R3 0603 C22787
+# 150 Ohm
+part R2 0603 C22808
+part R3 0603 C22808
 
 # 10 Ohm
 part R4 0603 C22859
