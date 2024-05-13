@@ -57,11 +57,6 @@ part D2 SOT23-3 C2500
 part IN SMA-EDGE C496550
 part OUT SMA-EDGE C496550
 
-part M1 M3 hole
-part M2 M3 hole
-part M3 M3 hole
-part M4 M3 hole
-
 puts "  )"
 puts "  (nets"
 
