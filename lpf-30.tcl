@@ -19,27 +19,27 @@ puts "(export (version E)"
 puts "  (components"
 
 # 5.1 Ohm
-part R1 0603 C25197
+part R1 0805 C17724
 
 # 1 kOhm
-part R2 0603 C21190
-part R3 0603 C21190
+part R2 0805 C17513
+part R3 0805 C17513
 
-# 100 nF
-part C1 0603 C14663
-part C2 0603 C14663
+# 1 uF
+part C1 0805 C28323
+part C2 0805 C28323
 
 # 56 pF
-part C3 0603 C527049
-part C4 0603 C527049
+part C3 0805 C520063
+part C4 0805 C520063
 
 # 100 pF
-part C5 0603 C513648
-part C6 0603 C513648
+part C5 0805 C520054
+part C6 0805 C520054
 
 # 56 pF
-part C7 0603 C527049
-part C8 0603 C527049
+part C7 0805 C520063
+part C8 0805 C520063
 
 # 330 nH
 part L1 1008 C346446
