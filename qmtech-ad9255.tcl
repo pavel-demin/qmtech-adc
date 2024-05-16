@@ -18,6 +18,8 @@ proc wire {name args} {
 puts "(export (version E)"
 puts "  (components"
 
+# ADC
+
 # 51 Ohm
 part R1 0603 C23197
 
@@ -92,10 +94,10 @@ part C26 0805 C15850
 part C27 0805 C28323
 part C28 0805 C15850
 
-part C29 1206 C12891
+part C29 CASE-A-3216 C7171
 part C30 CASE-A-3216 C7171
 
-part C31 1206 C12891
+part C31 CASE-A-3216 C7171
 part C32 CASE-A-3216 C7171
 
 part T1 AT224 C879856
@@ -103,12 +105,57 @@ part T1 AT224 C879856
 part Y1 SMD7050-6P C5179988
 
 part IC1 LFCSP48 C653392
-part IC2 SOT23 C2862740
-part IC3 SOT23 C963430
-part IC4 SOT23 C2869949
-part IC5 SOT23 C2862740
-part IC6 SOT23 C963430
-part IC7 SOT23 C2869949
+
+# filter
+
+# 5.1 Ohm
+part R14 0805 C17724
+
+# 1 kOhm
+part R15 0805 C17513
+part R16 0805 C17513
+
+# 1 uF
+part C33 0805 C28323
+part C34 0805 C28323
+
+# 56 pF
+part C35 0805 C520063
+part C36 0805 C520063
+
+# 100 pF
+part C37 0805 C520054
+part C38 0805 C520054
+
+# 56 pF
+part C39 0805 C520063
+part C40 0805 C520063
+
+# 330 nH
+part L1 1008 C346446
+part L2 1008 C346446
+
+# 100 nH
+part L3 1008 C346437
+
+# 330 nH
+part L4 1008 C346446
+
+# BAV99
+
+part D1 SOT23-3 C2500
+part D2 SOT23-3 C2500
+
+# power
+
+part IC2 SOT23-5 C2862740
+part IC3 SOT23-5 C963430
+part IC4 SOT23-5 C2869949
+part IC5 SOT23-5 C2862740
+part IC6 SOT23-5 C963430
+part IC7 SOT23-5 C2869949
+
+# connectors
 
 part CN1 SMA-EDGE C496550
 part CN2 2x25 2x25
@@ -120,7 +167,7 @@ part M2 M3 hole
 puts "  )"
 puts "  (nets"
 
-wire INPUT CN1/1 T1/4
+# ADC
 
 wire SEC+ T1/1 R2/1 R4/1
 wire VCM1 IC1/46 C1/1 R1/1
@@ -133,7 +180,7 @@ wire FLT- R5/2 C3/2 R7/1
 wire AIN+ R6/2 IC1/42
 wire AIN- R7/2 IC1/43
 
-wire GND CN1/2 T1/6 C1/2 C2/2
+wire GND T1/6 C1/2 C2/2
 
 wire VREF C4/1 C5/1 IC1/38
 wire GND C4/2 C5/2
@@ -163,6 +210,27 @@ wire CLKP C17/2 IC1/2
 
 wire CVDD C15/1 Y1/1 Y1/6
 wire GND C15/2 Y1/3
+
+# filter
+
+wire ATT1 CN1/1 R14/1 R15/1
+wire ATT2 R14/2 R16/1 C33/1
+
+wire TVS1 C33/2 D1/3 C34/1
+wire TVS2 D1/1 D2/2
+wire TVS3 D1/2 D2/1
+
+wire GND R15/2 R16/2 D2/3
+
+wire FLT1 C34/2 C35/1 L1/1
+wire FLT2 L1/2 C36/1 C37/1 L2/1
+wire FLT3 L2/2 L3/1
+wire FLT4 L3/2 C38/1 C39/1 L4/1
+wire FLT5 L4/2 C40/1 T1/4
+
+wire GND CN1/2 C35/2 C36/2 C37/2 C38/2 C39/2 C40/2
+
+# power
 
 wire 5V C18/1 IC2/1
 wire CVDD C19/1 IC2/5
@@ -204,17 +272,23 @@ wire VCCO25 R12/1
 wire 5V R13/1
 wire GND R11/2 R12/2 R13/2
 
+wire GND CN2/1 CN2/2 CN2/47 CN2/48
+wire VCCO25 CN2/3 CN2/4
+wire VIN1 CN2/49 CN2/50
+
+# AEN
+
 wire IN1 CN2/45 R10/1
 
 wire AEN IC2/3 IC3/3 IC4/3 IC5/3 IC6/3 R10/2
+
+# SPI
 
 wire CSB IC1/32 CN2/46
 wire SCLK IC1/31 CN2/43
 wire SDIO IC1/30 CN2/44
 
-wire GND CN2/1 CN2/2 CN2/47 CN2/48
-wire VCCO25 CN2/3 CN2/4
-wire VIN1 CN2/49 CN2/50
+# data
 
 wire DCON IC1/7 CN2/25
 wire DCOP IC1/8 CN2/26
