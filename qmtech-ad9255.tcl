@@ -161,8 +161,8 @@ part CN1 SMA-EDGE C496550
 part CN2 2x25 2x25
 part CN3 1x2 1x2
 
-part M1 M3 hole
-part M2 M3 hole
+part H1 M3 hole
+part H2 M3 hole
 
 puts "  )"
 puts "  (nets"
@@ -180,7 +180,7 @@ wire FLT- R5/2 C3/2 R7/1
 wire AIN+ R6/2 IC1/42
 wire AIN- R7/2 IC1/43
 
-wire GND T1/6 C1/2 C2/2
+wire GND T1/4 C1/2 C2/2
 
 wire VREF C4/1 C5/1 IC1/38
 wire GND C4/2 C5/2
@@ -226,7 +226,7 @@ wire FLT1 C34/2 C35/1 L1/1
 wire FLT2 L1/2 C36/1 C37/1 L2/1
 wire FLT3 L2/2 L3/1
 wire FLT4 L3/2 C38/1 C39/1 L4/1
-wire FLT5 L4/2 C40/1 T1/4
+wire FLT5 L4/2 C40/1 T1/6
 
 wire GND CN1/2 C35/2 C36/2 C37/2 C38/2 C39/2 C40/2
 
