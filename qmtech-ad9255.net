@@ -21,7 +21,7 @@
     (comp (ref R19) (footprint footprints:0805) (property (name mpn) (value C17513)))
     (comp (ref R20) (footprint footprints:0805) (property (name mpn) (value C17513)))
     (comp (ref R21) (footprint footprints:0805) (property (name mpn) (value C17513)))
-    (comp (ref R22) (footprint footprints:0805) (property (name mpn) (value C17513)))
+    (comp (ref R22) (footprint footprints:0805) (property (name mpn) (value C17414)))
     (comp (ref R23) (footprint footprints:0805) (property (name mpn) (value C17513)))
     (comp (ref FB1) (footprint footprints:1206) (property (name mpn) (value C560056)))
     (comp (ref C1) (footprint footprints:0603) (property (name mpn) (value C15849)))

@@ -1457,7 +1457,7 @@
   (footprint "footprints:0805" (layer "F.Cu")
     (tstamp ac2e26d3-3245-47e1-a79b-bbb68d70f910)
     (at 124.1 57.4 90)
-    (property "mpn" "C17513")
+    (property "mpn" "C17414")
     (attr smd)
     (fp_text reference "R22" (at 3.6 -0.1 90) (layer "F.SilkS") hide
         (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -2384,7 +2384,7 @@
   (gr_text "AD9255-80 ADC module\nfor QMTECH XC7Z020 \n" (at 145 56) (layer "F.SilkS") (tstamp 8e74a99a-f954-4259-ab78-ab8674d23bce)
     (effects (font (size 1.2 1.2) (thickness 0.2) bold))
   )
-  (gr_text "version 20240601" (at 145 61) (layer "F.SilkS") (tstamp b4ccd4c5-b690-40ca-967b-7b807f891395)
+  (gr_text "version 20240602" (at 145 61) (layer "F.SilkS") (tstamp b4ccd4c5-b690-40ca-967b-7b807f891395)
     (effects (font (size 1.2 1.2) (thickness 0.2) bold))
   )
   (gr_text "3.3V" (at 115 52.5) (layer "F.SilkS") (tstamp df2a3351-b527-41b7-8e18-16d28df64b65)
